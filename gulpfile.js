@@ -74,7 +74,7 @@ gulp.task('critical-css', function () {
   height: 1080, // max window height for critical media queries
   userAgent: 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)' // pretend to be googlebot when grabbing critical page styles.
   }))
-  .pipe(gulp.dest('./src/')); // destination folder for the output file
+  .pipe(gulp.dest('./src/critical')); // destination folder for the output file
 });
 
 gulp.task('img', function() { 
